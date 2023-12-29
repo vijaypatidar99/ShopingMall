@@ -10,9 +10,9 @@ import { Login } from './components/Login';
 import ProductList from './pages/ProductList';
 import ProductForm from './pages/ProductForm'
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
 import GridDemo from './pages/GridDemo';
-
+import UserDetails from './pages/UserDetails';
+import TodoApp from './pages/TodoApp';
 
 function App() {
   return (
@@ -28,6 +28,8 @@ function App() {
           <Route path = "/login" element = {<Login/>}/> 
           <Route path = "/userform" element = {<ProductForm/>}/> 
           <Route path = "/griddemo" element = {<GridDemo/>}/> 
+          <Route path="/userdetails" element ={<UserDetails/>} />
+          <Route path="/todoapp" element ={<TodoApp/>} />
         </Routes>
       </Router>
     </div>

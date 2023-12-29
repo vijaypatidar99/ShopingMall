@@ -29,6 +29,9 @@ const Header = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/griddemo"><h2>GridDemo</h2></Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/todoapp"><h2>TodoApp</h2></Link>
+            </li>
           </ul>
         <button className='btn btn-secondary ' onClick={handleCLick} >Login</button>
         </div>

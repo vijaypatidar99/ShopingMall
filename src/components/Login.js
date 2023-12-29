@@ -1,9 +1,9 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+// import { useParams } from 'react-router-dom'
 
 export const Login = () => {
 //  access the route id
-const { id } = useParams();
+// const { id } = useParams();
 
   return (
     <div>
